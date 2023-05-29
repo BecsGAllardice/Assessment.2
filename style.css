@@ -1,12 +1,12 @@
 
 
 body {
-    background-color: #1e1d1a;
+    background-color: black;
     Margin: 0;
 }
 
 
-.container {
+.about-container {
     position: relative;
     text-align: center;
     color: #fffff3;
@@ -14,10 +14,14 @@ body {
 
 .centered {
     position: absolute;
-    font-size:x-large;
+    font-size:20px;
+    padding-left: 60px;
+    padding-right: 60px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    text-align:center;
+    max-width: 1000px;
 }
 h1 {
     color: #ef2917;
@@ -43,21 +47,27 @@ h2 {
     float: left;
     padding-left: 50px;
     color:#fffff3;
+    font-size:1.5em;
 }
 
 .image {
     display : flex;
     justify-content: flex-end;
     align-items: center;
-    padding-right: 60px;
-    padding-bottom: 50px;
-    padding-top: 15px;
 }
 
 .image img {
     max-width: 100%;
     height: auto;
+    padding-right: 60px;
+    padding-bottom: 50px;
+    padding-top: 100px;
 }
+
+.name{
+    color:#ef2917;
+}
+
 @media (max-width: 900px) {
     .container {
       flex-direction: column;
@@ -70,6 +80,7 @@ h2 {
 /*contact section*/
 
 .row {
+    background-color:black;
     position: relative;
     text-align: left;
     padding-left: 300px;
@@ -80,6 +91,7 @@ h2 {
 .column {
     float: left;
     width: 50%;
+    padding-bottom: 50px;
 }
 
 
